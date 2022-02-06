@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-image: url(full-bloom.png);
+}
+
+#sosmed {
+  height: 100%;
+}
+
+#container {
+  position: relative;
+  width: 1000px;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #d6d6d6;
+  border-radius: 10px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Bitter", serif;
+  letter-spacing: 20px;
+  width: 100%;
+  background-color: #1e11db;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+#konten {
+  width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.post-status {
+  padding-bottom: 3px;
+  width: 800px;
+  margin: 5px auto 0;
+  border: 2px solid black;
+  background-color: white;
+  box-sizing: border-box;
+}
+.post-status:focus-within {
+  background-color: #ffbd2f;
+}
+
+textarea {
+  width: 782px;
+  height: 100px;
+  font-size: 13pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid black;
+  margin: 7px 7px 0;
+}
+textarea:focus {
+  background-color: #fcf82a;
+}
+
+a.yt, button#balas, button.cnc, button.post {
+  border-radius: 4px;
+  padding: 3px;
+}
+
+button.cnc:hover, button.post:hover {
+  border: 1px solid red;
+}
+
+button {
+  margin-bottom: 1px;
+  float: right;
+  color: white;
+  cursor: pointer;
+}
+button.post {
+  background-color: #1e11db;
+  margin-right: 3px;
+}
+button.cnc {
+  background-color: black;
+  margin-right: 7px;
+}
+button#balas {
+  margin: 3px 7px 0 0;
+  background-color: #1e11db;
+}
+
+.clear {
+  clear: right;
+}
+
+.status {
+  padding: 3px 10px 0 15px;
+  margin: 20px 0 0 0;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(72, 33, 95, 0.459);
+}
+
+.profil-status {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+}
+
+img {
+  margin: 5px 10px 5px 0;
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+h3 {
+  padding: 4px 30px 0;
+  color: #00087c;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+}
+
+.isi-status {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+a.komen, a.like {
+  border-radius: 10px;
+  padding: 0 2px;
+  height: 25px;
+  line-height: 20px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a.fb {
+  right: 110px;
+  position: absolute;
+  bottom: 35px;
+  background-color: blue;
+  margin-right: 0;
+}
+a.fb:hover {
+  color: white;
+  background-color: red;
+  font-size: 20px;
+}
+
+div.komen {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0 0 2px 30px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.komen {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0 0 2px 30px;
+  box-sizing: border-box;
+}
+.komen .profil-komen {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+}
+.komen textarea#Komentari {
+  float: right;
+  width: 700px;
+  height: 40px;
+  font-size: 13pt;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 2px solid black;
+}
+.komen textarea#Komentari:focus {
+  background-color: #00ff40;
+}
+
+form.komen {
+  padding-left: 20px;
+}
+
+.isi-komen {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+#footer {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 0px;
+}
+
+h2 {
+  line-height: 13px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 5px;
+  width: 100%;
+  background-color: #1e11db;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
